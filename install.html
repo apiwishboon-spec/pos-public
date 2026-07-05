@@ -49,17 +49,17 @@
             <p>Welcome to the POS System installation guide. Follow the instructions below for your operating system.</p>
 
             <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 2rem;">
-                <a href="https://apiwishboon-spec.github.io/pos-public/POS-System.dmg" class="md3-button md3-button--filled">
+                <a href="https://apiwishboon-spec.github.io/pos-public/POS-System.dmg" class="md3-button md3-button--filled" onclick="setTimeout(() => document.getElementById('macos').scrollIntoView({behavior:'smooth'}), 500)">
                     <span class="material-symbols-outlined md3-button__icon">apple</span>
-                    Download macOS DMG
+                    macOS
                 </a>
-                <a href="https://apiwishboon-spec.github.io/pos-public/POS-System-Windows.zip" class="md3-button md3-button--filled">
+                <a href="https://apiwishboon-spec.github.io/pos-public/POS-System-Windows.zip" class="md3-button md3-button--filled" onclick="setTimeout(() => document.getElementById('windows').scrollIntoView({behavior:'smooth'}), 500)">
                     <span class="material-symbols-outlined md3-button__icon">window</span>
-                    Download Windows EXE
+                    Windows
                 </a>
-                <a href="https://apiwishboon-spec.github.io/pos-public/POS-System-Linux.zip" class="md3-button md3-button--filled">
+                <a href="https://apiwishboon-spec.github.io/pos-public/POS-System-Linux.zip" class="md3-button md3-button--filled" onclick="setTimeout(() => document.getElementById('linux').scrollIntoView({behavior:'smooth'}), 500)">
                     <span class="material-symbols-outlined md3-button__icon">terminal</span>
-                    Download Linux Binary
+                    Linux
                 </a>
             </div>
 
@@ -67,7 +67,7 @@
                 <strong>Note:</strong> This is a 7-day trial version.
             </div>
 
-            <div class="md3-platform-section">
+            <div id="windows" class="md3-platform-section">
                 <span class="material-symbols-outlined" style="font-size: 2.5rem; color: var(--md-sys-color-primary);">window</span>
                 <h2>Windows</h2>
 
@@ -97,7 +97,7 @@
                 </ol>
             </div>
 
-            <div class="md3-platform-section">
+            <div id="macos" class="md3-platform-section">
                 <span class="material-symbols-outlined" style="font-size: 2.5rem; color: var(--md-sys-color-primary);">apple</span>
                 <h2>macOS</h2>
 
@@ -130,7 +130,7 @@
                 </ol>
             </div>
 
-            <div class="md3-platform-section">
+            <div id="linux" class="md3-platform-section">
                 <span class="material-symbols-outlined" style="font-size: 2.5rem; color: var(--md-sys-color-primary);">terminal</span>
                 <h2>Linux</h2>
 
