@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation Guide - POS System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+
+    <header class="md3-top-app-bar">
+        <div class="md3-top-app-bar__row">
+            <div class="md3-top-app-bar__section md3-top-app-bar__section-start">
+                <span class="material-symbols-outlined md3-top-app-bar__icon">point_of_sale</span>
+                <span class="md3-top-app-bar__title">POS System</span>
+            </div>
+            <nav class="md3-top-app-bar__section md3-top-app-bar__section-end md3-top-app-bar__nav">
+                <a href="index.html" class="md3-nav-link">Home</a>
+                <a href="index.html#features" class="md3-nav-link">Features</a>
+                <a href="index.html#pricing" class="md3-nav-link">Pricing</a>
+                <a href="index.html#download" class="md3-nav-link">Download</a>
+                <a href="index.html#about" class="md3-nav-link">About</a>
+                <a href="index.html#contact" class="md3-nav-link">Contact</a>
+            </nav>
+            <button class="md3-icon-button" id="nav-toggle" aria-label="Menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <div class="md3-top-app-bar__dropdown" id="nav-dropdown">
+            <a href="index.html" class="md3-dropdown-item">Home</a>
+            <a href="index.html#features" class="md3-dropdown-item">Features</a>
+            <a href="index.html#pricing" class="md3-dropdown-item">Pricing</a>
+            <a href="index.html#download" class="md3-dropdown-item">Download</a>
+            <a href="index.html#about" class="md3-dropdown-item">About</a>
+            <a href="index.html#contact" class="md3-dropdown-item">Contact</a>
+        </div>
+    </header>
+
+    <section class="md3-page">
+        <div class="md3-page__container">
+            <a href="index.html" class="md3-back-link">
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_back</span>
+                Back to Home
+            </a>
+            <h1 class="md3-page__title">Installation Guide</h1>
+
+            <p>Welcome to the POS System installation guide. Follow the instructions below for your operating system.</p>
+
+                <div class="md3-note-box">
+                <strong>Note:</strong> This is a 7-day trial version. <a href="https://github.com/apiwishboon-spec/pos-public/raw/main/POS-System.dmg" style="color: var(--md-sys-color-on-primary-container); font-weight: 600;">Download the DMG</a> or <a href="javascript:void(0)" onclick="copyEmail('apiwish.boon@gmail.com', 'Trial Download')" style="color: var(--md-sys-color-on-primary-container); font-weight: 600;">contact us</a> for other platforms.
+            </div>
+
+            <div class="md3-platform-section">
+                <span class="material-symbols-outlined" style="font-size: 2.5rem; color: var(--md-sys-color-primary);">window</span>
+                <h2>Windows</h2>
+
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Windows 10 or later (64-bit)</li>
+                    <li>2GB RAM minimum (4GB recommended)</li>
+                    <li>100MB free disk space</li>
+                </ul>
+
+                <h3>Installation</h3>
+                <ol>
+                    <li>Place the <code>POS System.exe</code> and <code>data</code> folder in the same directory</li>
+                    <li>Double-click <code>POS System.exe</code></li>
+                    <li>If Windows SmartScreen appears, click "More info" then "Run anyway"</li>
+                    <li>Configure your store settings on first launch</li>
+                </ol>
+
+                <div class="md3-warning-box">
+                    <strong>Important:</strong> Keep the <code>data</code> folder in the same directory as the executable to preserve your data.
+                </div>
+
+                <h3>Uninstall</h3>
+                <ol>
+                    <li>Close the application</li>
+                    <li>Delete the <code>POS System.exe</code> file and <code>data</code> folder</li>
+                </ol>
+            </div>
+
+            <div class="md3-platform-section">
+                <span class="material-symbols-outlined" style="font-size: 2.5rem; color: var(--md-sys-color-primary);">apple</span>
+                <h2>macOS</h2>
+
+                <h3>Requirements</h3>
+                <ul>
+                    <li>macOS 10.15 (Catalina) or later</li>
+                    <li>2GB RAM minimum (4GB recommended)</li>
+                    <li>100MB free disk space</li>
+                </ul>
+
+                <h3>Installation</h3>
+                <ol>
+                    <li>Open the <code>POS-System.dmg</code> file</li>
+                    <li>Drag the <code>POS System</code> app to your Applications folder</li>
+                    <li>Eject the DMG</li>
+                    <li>Open <code>POS System</code> from Applications</li>
+                    <li>If a security warning appears, right-click the app and select "Open"</li>
+                    <li>Configure your store settings on first launch</li>
+                </ol>
+
+                <div class="md3-note-box">
+                    <strong>Note:</strong> The first time you launch, macOS may show a security warning for unsigned applications. Right-click and select "Open" to bypass.
+                </div>
+
+                <h3>Uninstall</h3>
+                <ol>
+                    <li>Close the application</li>
+                    <li>Drag <code>POS System</code> from Applications to Trash</li>
+                    <li>Empty the trash</li>
+                </ol>
+            </div>
+
+            <div class="md3-platform-section">
+                <span class="material-symbols-outlined" style="font-size: 2.5rem; color: var(--md-sys-color-primary);">terminal</span>
+                <h2>Linux</h2>
+
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Ubuntu 20.04+, Debian 11+, or similar</li>
+                    <li>2GB RAM minimum (4GB recommended)</li>
+                    <li>100MB free disk space</li>
+                </ul>
+
+                <h3>Installation</h3>
+                <ol>
+                    <li>Make the binary executable:</li>
+                </ol>
+                <pre><code>chmod +x "POS System"</code></pre>
+                <ol start="2">
+                    <li>Run the application:</li>
+                </ol>
+                <pre><code>./"POS System"</code></pre>
+                <ol start="3">
+                    <li>Configure your store settings on first launch</li>
+                </ol>
+
+                <h3>Desktop Shortcut (optional)</h3>
+                <pre><code>sudo nano /usr/share/applications/pos-system.desktop</code></pre>
+                <p>Add:</p>
+                <pre><code>[Desktop Entry]
+Name=POS System
+Comment=Point of Sale System
+Exec=/path/to/POS System
+Icon=pos-system
+Terminal=false
+Type=Application
+Categories=Office;Finance;</code></pre>
+
+                <h3>Uninstall</h3>
+                <ol>
+                    <li>Close the application</li>
+                    <li>Delete the <code>POS System</code> binary and <code>data</code> folder</li>
+                    <li>Remove the desktop entry: <code>sudo rm /usr/share/applications/pos-system.desktop</code></li>
+                </ol>
+            </div>
+
+            <h2>Troubleshooting</h2>
+
+            <h3>Application won't start</h3>
+            <ul>
+                <li>Ensure the <code>data</code> folder exists in the same directory as the executable</li>
+                <li>Try running as administrator (Windows) or with <code>sudo</code> (Linux)</li>
+            </ul>
+
+            <h3>Data backup</h3>
+            <ul>
+                <li>The database is stored at <code>data/pos.db</code></li>
+                <li>Regularly backup the entire <code>data</code> folder</li>
+            </ul>
+
+            <h3>Need help?</h3>
+            <p>Email: <a href="javascript:void(0)" onclick="copyEmail('apiwish.boon@gmail.com')" style="color: var(--md-sys-color-primary);">apiwish.boon@gmail.com</a> (click to copy)</p>
+
+            <div class="md3-last-updated">Last Updated: July 5, 2026</div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
